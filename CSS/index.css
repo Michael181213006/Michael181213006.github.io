@@ -1,0 +1,311 @@
+*{
+	padding:0;
+	margin:0;
+}
+
+body, html{
+	height: 100%;
+}
+
+body{
+	background: url(../IMAGES/main.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover; 
+	background-attachment: fixed;
+}
+
+.Head{
+	height: 60px;
+	width: 100%;
+}
+
+.HEADING{
+	width: 100%;
+}
+
+.lft{
+	margin-top: 10px;
+	margin-left: 40px;
+	float: left;
+}
+
+.HEADING h1{
+	font-family: roboto;
+	font-weight: 400;
+	color: white;
+	font-size: 30px;
+}
+
+.searchbar{
+	margin-top: 20px;
+	margin-right: 50px;
+	float: right;
+}
+
+.wrap{
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.19);
+}
+
+.bigrap{
+	width: 100%;
+	height: 100%;
+}
+
+input{
+	outline: 0;
+	border:0;
+	padding: 3px;
+	border-radius: 50px;
+	font-family: Roboto;
+	color: #37bfbf;
+
+}
+
+.mnu{
+	width: 100%;
+	height: auto;
+	background: rgba(26, 26, 26, 0.7);
+	text-align: right;
+
+}
+
+.mnu_btn{
+	margin-right: 170px;
+	padding: 10px;
+}
+
+.mnu_btn .active{
+	padding: 12px 20px;
+	font-size: 14px;
+	text-decoration: none;
+	font-family: Raleway;
+	/*border-bottom: 2px solid #37bfbf;*/
+	background: rgba(13, 13, 13, 0.7);
+	color: #37bfbf;
+}
+
+.mnu_btn .non-active{
+	padding: 12px 20px;
+	font-size: 14px;
+	text-decoration: none;
+	font-family: Raleway;
+	color: #37bfbf;
+
+}
+
+.mnu_btn .non-active:hover{
+	background: #40e0d0;
+	color: #1a1a1a;
+	transition: 0.3s;
+}
+
+.welrap{
+	width: 100%;
+	margin-top: 100px;
+	text-align: center;
+}
+
+.Welcome{
+	margin-left: 700px;
+}
+
+.Welcome h2{
+	font-family: Amatic SC;
+	font-size: 130px;
+	color: White;
+}
+
+.Welcome p{
+	margin-top: 30px;
+	color: white;
+	font-size: 48px;
+	font-family: Amatic SC;
+
+}
+
+.trending{
+	width: 100%;
+	height: auto;
+	background: rgba(255, 255, 255, 0.95);
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.19);
+}
+
+.trend_body{
+	margin-left: 100px;
+	padding-top: 70px;
+	margin-right: 100px;
+}
+
+.trend_hed{
+	font-family: raleway;
+	color: #37bfbf;
+}
+
+.trend_hed h2{
+	padding: 13px;
+	background: #;
+	width: 275px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.19);
+}
+
+.trend_body table{
+	margin-top: 70px;
+}
+
+.mvspc{
+	width: 30%;
+}
+
+.mvspc img{
+	margin-top: 30px;
+	margin-left: 50px;
+	margin-bottom: 30px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.19);
+}
+
+.blk h3{
+	color: #37bfbf;
+	font-family: roboto;
+	font-weight: 300;
+	font-size: 65px;
+
+
+}
+
+.syn{
+	font-family: roboto;
+	font-size: 14.5px;
+	color: #37bfbf;
+}
+
+.bk{
+	text-decoration: none;
+	font-family: Raleway;
+	padding: 8px 15px;
+	background: #37bfbf;
+	color: white;
+}
+
+.bk:hover{
+	background: #288a8a;
+	transition: .3s;
+}
+
+.footer{
+	width:100%;
+	height: 300px;
+	background: rgba(13, 13, 13, 0.95);
+	text-align: center;
+}
+
+.socials{
+	padding-top: 70px;
+	height: 70px;
+}
+
+.socials a{
+	padding: 8px 20px;
+	text-decoration: none;
+	color: #37bfbf;
+	font-size: 25px;
+	transition: .2s;
+}
+
+.socials a:hover{
+	border-bottom: 2px solid #37bfbf;
+	color: white;
+	font-size: 30px;
+	transition: .2s;
+}
+
+.ftr_mnu{
+	padding-top: 15px;
+}
+
+.ftr_mnu a{
+	text-decoration: none;
+}
+
+.ftr_mnu .active{
+	color: white;
+	font-family: raleway;
+	padding: 10px 15px;
+}
+
+.ftr_mnu .non-active{
+	color: #37bfbf;
+	font-family: raleway;
+	padding: 10px 15px;
+}
+
+.ftr_mnu .non-active:hover{
+	color:white;
+	transition: .3s;
+}
+
+.copy{
+	margin-top: 25px;
+	font-family: raleway;
+	color: #37bfbf;
+}
+
+.comp{
+	margin-top: 25px;
+	font-family: raleway;
+	color: white;
+}
+
+
+/*
+.t1{
+	margin-top: 50px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	border: 1px solid #37bfbf;
+}
+
+.t1 img{
+	margin-left: 50px;
+}
+
+.t2{
+	padding-top: 50px;
+	padding-bottom: 50px;
+	border: 1px solid #37bfbf;
+}
+
+.t2 img{
+	margin-left: 50px;
+}
+
+.t3{
+	padding-top: 50px;
+	padding-bottom: 50px;
+	border: 1px solid #37bfbf;
+}
+
+.t3 img{
+	margin-left: 50px;
+}*/
+
+/* width */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #1a1a1a;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: lightgray;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: gray;
+  transition: .3s;
+}

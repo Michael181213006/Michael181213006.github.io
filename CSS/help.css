@@ -1,0 +1,223 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body, html{
+	height: 100%;
+}
+
+body{
+	background: url(../IMAGES/main.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover; 
+	background-attachment: fixed;
+}
+
+.Head{
+	height: 60px;
+	width: 100%;
+}
+
+.HEADING{
+	width: 100%;
+}
+
+.lft{
+	margin-top: 10px;
+	margin-left: 40px;
+	float: left;
+}
+
+.HEADING h1{
+	font-family: roboto;
+	font-weight: 400;
+	color: #37bfbf;
+	font-size: 30px;
+}
+
+.searchbar{
+	margin-top: 20px;
+	margin-right: 50px;
+	float: right;
+
+}
+
+.wrap{
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.195);
+}
+
+.bigrap{
+	background: rgba(255, 255, 255, 0.95);
+	width: 100%;
+	height: 1200px;
+}
+
+input{
+	outline: 0;
+	border:0;
+	padding: 2px;
+	border-radius: 5px 5px 5px 5px;
+	font-family: Roboto;
+	color: white;
+	background: grey;
+	/*placeholder color: please change*/
+}
+
+.mnu{
+	width: 100%;
+	height: auto;
+	background: rgba(26, 26, 26, 0.7);
+	text-align: right;
+}
+
+.mnu_btn{
+	margin-right: 170px;
+	padding: 10px;
+}
+
+.mnu_btn .active{
+	padding: 12px 20px;
+	font-size: 14px;
+	text-decoration: none;
+	font-family: Raleway;
+	/*border-bottom: 2px solid #37bfbf;*/
+	background: rgba(13, 13, 13, 0.7);
+	color: #37bfbf;
+}
+
+.mnu_btn .non-active{
+	padding: 12px 20px;
+	font-size: 14px;
+	text-decoration: none;
+	font-family: Raleway;
+	color: #37bfbf;
+
+}
+
+.mnu_btn .non-active:hover{
+	background: rgba(255, 255, 255, 0.95);
+	color: #1a1a1a;
+	transition: 0.3s;
+}
+
+
+
+.bighelp{
+	text-align: justify;
+	height: 652px;
+}
+
+.HELP{
+	padding-top: 50px; 
+}
+
+.HELP h2{
+	color: #37bfbf;
+	font-family: raleway;
+	font-size: 50px;
+	margin-bottom: 60px;
+}
+
+.HELP p{
+	width: 80%;
+	margin-top: 20px;
+	color: #37bfbf;
+	font-family: raleway;
+	font-size: 20px;
+}
+
+
+
+/*Footer*/
+
+.footer{
+	width:100%;
+	height: 300px;
+	background: rgba(13, 13, 13, 0.95);
+	text-align: center;
+}
+
+.socials{
+	padding-top: 70px;
+	height: 70px;
+}
+
+.socials a{
+	padding: 8px 20px;
+	text-decoration: none;
+	color: #37bfbf;
+	font-size: 25px;
+	transition: .2s;
+}
+
+.socials a:hover{
+	border-bottom: 2px solid #37bfbf;
+	color: white;
+	font-size: 30px;
+	transition: .2s;
+}
+
+.ftr_mnu{
+	padding-top: 15px;
+}
+
+.ftr_mnu a{
+	text-decoration: none;
+}
+
+.ftr_mnu .active{
+	color: white;
+	font-family: raleway;
+	padding: 10px 15px;
+}
+
+.ftr_mnu .non-active{
+	color: #37bfbf;
+	font-family: raleway;
+	padding: 10px 15px;
+}
+
+.ftr_mnu .non-active:hover{
+	color:white;
+	transition: .3s;
+}
+
+.copy{
+	margin-top: 25px;
+	font-family: raleway;
+	color: #37bfbf;
+}
+
+.comp{
+	margin-top: 25px;
+	font-family: raleway;
+	color: white;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #1a1a1a;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: lightgray;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: gray;
+  transition: .3s;
+}
+
+::placeholder{
+	color: white;
+	opacity: 0.8;
+}

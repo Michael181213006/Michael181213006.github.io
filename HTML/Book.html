@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bookings | Dolphin Cinemas</title>
+	<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+	<!--FONTS-->
+	<link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700&display=swap" rel="stylesheet">
+
+	<link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+
+	<link href="https://fonts.googleapis.com/css?family=Amatic+SC:400,700&display=swap" rel="stylesheet">
+
+	<link href="https://fonts.googleapis.com/css?family=Cookie&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="../CSS/book.css">
+</head>
+<body>
+	<div class="bigrap">
+		<div class="wrap">
+				<div class="Head">
+					<div class="HEADING">
+						<div class="lft">
+							<h1>Dolphin <img src="../IMAGES/dolph.png" width="70px" align="left" style="margin-right: 10px;"> Cinemas&trade;
+							</h1>
+						</div>
+						<div class="searchbar">
+							<input type="text" placeholder="Search">
+						</div>
+					</div>
+				</div>
+
+				<div class="mnu">
+					<div class="mnu_btn">
+						<a href="index.html" class="non-active">HOME</a>
+					<a href="Showtimes.html" class="non-active">SHOWTIMES</a>
+						<a href="Book.html" class="active">BOOKINGS</a>
+						<a href="help.html" class="non-active">HELP</a>
+					</div>
+				</div>
+			</div>
+
+			<div class="sub_bdy">
+				<div class="sbhed">
+					<h4>BOOKINGS</h4>
+				</div>
+				<p>Book Your Premiere Tickets Now!</p>
+
+				<form action="success.html">
+					<input type="text" name="name" placeholder="Fullname" required><br>
+					<input type="text" name="mail" placeholder="Email" required><br>
+					<input type="text" name="phone" placeholder="Phone No" required><br>
+					<br><label>Select a Movie</label>
+					<center>
+						<table>
+							<tr>
+								<td>
+									<img src="../IMAGES/jw.jpg"><br>
+									<input type="radio" name="movie" required>
+								</td>
+								<td>
+									<img src="../IMAGES/blackwidow.jpg"><br>
+									<input type="radio" name="movie" required>
+								</td>
+								<td>
+									<img src="../IMAGES/movie2.jpg"><br>
+									<input type="radio" name="movie" required>
+								</td>
+							</tr>
+						</table>
+					</center>
+
+					<input type="number" name="ticks" placeholder="Number of Tickets" min="1" max="5" required><br>
+					<br><br><br>
+					<input type="submit" value="BOOK TICKET">
+				</form>
+			</div>
+
+		</div>
+
+
+		<!--FOOTER-->
+		<div class="footer">
+			<div class="socials">
+					<a href="https://www.facebook.com"><i class="fab fa-facebook-f"></i></a>
+					<a href="https://www.twitter.com"><i class="fab fa-twitter"></i></a>
+					<a href="https://www.instagram.com"><i class="fab fa-instagram"></i></a>
+					<a href="https://www.skype.com"><i class="fab fa-skype"></i></a>
+					<a href="https://www.whatsapp.com"><i class="fab fa-whatsapp"></i></a>
+			</div>
+			<div class="ftr_mnu">
+				<a href="index.html" class="non-active">HOME</a>
+				<a href="Showtimes.html" class="non-active">SHOWTIMES</a>
+				<a href="Book.html" class="active">BOOKINGS</a>
+				<a href="help.html" class="non-active">HELP</a>
+			</div>
+
+			<p class="comp">A  <span style="font-family: Cookie; font-size: 25px;color: #37bfbf">Orie Group</span> Company </p>
+
+			<p class="copy">&copy; <b>DOLPHIN CINEMAS&trade;</b> 2020</p>
+		</div>
+</body>
+</html>
